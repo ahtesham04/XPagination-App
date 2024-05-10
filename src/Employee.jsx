@@ -17,6 +17,7 @@ function Employee() {
       setEmployees(data);
     } catch (error) {
       console.log(error);
+      alert("Failed to fetch data")
     }
   };
   const indexOfLastData = currentPage * dataPerPage;
